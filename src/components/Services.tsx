@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Zap, Wrench, Droplets, Building2 } from "lucide-react";
+import servicesBg from "@/assets/services-bg.jpg";
 
 const services = [
   {
