@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const GridBackground = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
