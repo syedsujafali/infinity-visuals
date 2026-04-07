@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
   { label: "Services", href: "#services" },
@@ -47,6 +48,7 @@ const Navbar = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
+          <ThemeToggle />
           <a
             href="#cta"
             className="btn-glow text-sm font-semibold px-5 py-2.5 rounded-lg text-primary-foreground"
