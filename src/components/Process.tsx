@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageSquare, ClipboardList, Pencil, Rocket } from "lucide-react";
+import processBg from "@/assets/process-bg.jpg";
 
 const steps = [
   { icon: MessageSquare, title: "Consultation", desc: "We listen, understand your vision, and define the project scope." },
