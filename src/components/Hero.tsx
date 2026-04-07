@@ -87,7 +87,7 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background layers */}
       <div className="absolute inset-0 bg-background" />
-      <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-30 dark:opacity-20" width={1920} height={1080} />
+      <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-50 dark:opacity-40" width={1920} height={1080} />
       <GridBackground />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/60 to-background" />
 
