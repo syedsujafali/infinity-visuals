@@ -4,7 +4,7 @@ import sectionBg from "@/assets/section-bg.jpg";
 const CTA = () => (
   <section id="cta" className="py-24 md:py-32 relative overflow-hidden">
     {/* Background image */}
-    <img src={sectionBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-20 dark:opacity-15" loading="lazy" width={1920} height={800} />
+    <img src={sectionBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-35 dark:opacity-25" loading="lazy" width={1920} height={800} />
     <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/10 to-primary/5" />
     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[150px]" />
 

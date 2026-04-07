@@ -1,5 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import statsBg from "@/assets/stats-bg.jpg";
 
 const stats = [
   { value: 500, suffix: "+", label: "Projects Delivered" },
@@ -48,8 +49,9 @@ const Counter = ({ value, suffix, label }: { value: number; suffix: string; labe
 };
 
 const WhyChooseUs = () => (
-  <section id="why-us" className="py-24 md:py-32 relative">
-    <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/20 to-background" />
+  <section id="why-us" className="py-24 md:py-32 relative overflow-hidden">
+    <img src={statsBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-30 dark:opacity-25" loading="lazy" width={1920} height={800} />
+    <div className="absolute inset-0 bg-background/50 dark:bg-background/60" />
     <div className="container mx-auto px-6 relative">
       <motion.div
         initial={{ opacity: 0, y: 30 }}

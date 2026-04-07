@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Zap, Wrench, Droplets, Building2 } from "lucide-react";
+import servicesBg from "@/assets/services-bg.jpg";
 
 const services = [
   {
@@ -51,7 +52,9 @@ const ServiceCard = ({ service, index }: { service: typeof services[0]; index: n
 };
 
 const Services = () => (
-  <section id="services" className="py-24 md:py-32 relative">
+  <section id="services" className="py-24 md:py-32 relative overflow-hidden">
+    <img src={servicesBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-25 dark:opacity-20" loading="lazy" width={1920} height={800} />
+    <div className="absolute inset-0 bg-background/60 dark:bg-background/70" />
     <div className="absolute inset-0 grid-bg" />
     <div className="container mx-auto px-6 relative">
       <motion.div

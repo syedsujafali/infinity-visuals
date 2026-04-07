@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageSquare, ClipboardList, Pencil, Rocket } from "lucide-react";
+import processBg from "@/assets/process-bg.jpg";
 
 const steps = [
   { icon: MessageSquare, title: "Consultation", desc: "We listen, understand your vision, and define the project scope." },
@@ -10,6 +11,8 @@ const steps = [
 
 const Process = () => (
   <section id="process" className="py-24 md:py-32 relative overflow-hidden">
+    <img src={processBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-25 dark:opacity-20" loading="lazy" width={1920} height={800} />
+    <div className="absolute inset-0 bg-background/60 dark:bg-background/65" />
     <div className="absolute inset-0 grid-bg" />
     <div className="container mx-auto px-6 relative">
       <motion.div
