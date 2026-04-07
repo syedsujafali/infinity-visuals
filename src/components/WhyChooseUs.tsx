@@ -1,5 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import statsBg from "@/assets/stats-bg.jpg";
 
 const stats = [
   { value: 500, suffix: "+", label: "Projects Delivered" },
