@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
+import projectTransit from "@/assets/project-transit.png";
+import projectAzure from "@/assets/project-azure.png";
+import projectHospital from "@/assets/project-hospital.png";
 
 const projects = [
-  { title: "Metro Transit Hub", category: "Infrastructure", image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&h=400&fit=crop" },
-  { title: "Azure Tower Complex", category: "Commercial", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop" },
-  { title: "Greenfield Hospital", category: "Healthcare", image: "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=600&h=400&fit=crop" },
+  { title: "Metro Transit Hub", category: "Infrastructure", image: projectTransit },
+  { title: "Azure Tower Complex", category: "Commercial", image: projectAzure },
+  { title: "Greenfield Hospital", category: "Healthcare", image: projectHospital },
   { title: "Solar Grid Station", category: "Energy", image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=400&fit=crop" },
   { title: "Riverside Residences", category: "Residential", image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&h=400&fit=crop" },
   { title: "Innovation Campus", category: "Education", image: "https://images.unsplash.com/photo-1562774053-701939374585?w=600&h=400&fit=crop" },

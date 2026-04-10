@@ -41,7 +41,7 @@ const GridBackground = () => {
 
           ctx.beginPath();
           ctx.arc(x, y, 1.5, 0, Math.PI * 2);
-          ctx.fillStyle = `hsla(199, 89%, 55%, ${alpha})`;
+          ctx.fillStyle = `hsla(221, 83%, 53%, ${alpha})`;
           ctx.fill();
         }
       }
@@ -56,7 +56,7 @@ const GridBackground = () => {
         ctx.beginPath();
         ctx.moveTo(x, y);
         ctx.lineTo(x2, y2);
-        ctx.strokeStyle = `hsla(260, 60%, 55%, ${0.05 + Math.sin(time + i) * 0.03})`;
+        ctx.strokeStyle = `hsla(199, 89%, 48%, ${0.05 + Math.sin(time + i) * 0.03})`;
         ctx.lineWidth = 0.5;
         ctx.stroke();
       }
@@ -92,8 +92,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/60 to-background" />
 
       {/* Floating orbs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-primary/5 blur-[120px] animate-float" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-secondary/5 blur-[100px] animate-float" style={{ animationDelay: "3s" }} />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-primary/10 blur-[120px] animate-float" />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-secondary/10 blur-[100px] animate-float" style={{ animationDelay: "3s" }} />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
