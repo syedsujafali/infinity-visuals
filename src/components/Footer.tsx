@@ -28,7 +28,7 @@ const Footer = () => (
           <h4 className="font-display font-semibold text-sm text-foreground mb-4">Contact</h4>
           <div className="space-y-2 text-sm text-muted-foreground">
             <p>contact@infinityengineering.com</p>
-            <p>+1 (555) 123-4567</p>
+            <p>+1 (347) 666-7366</p>
             <p>100 Innovation Drive, Suite 200</p>
           </div>
         </div>
